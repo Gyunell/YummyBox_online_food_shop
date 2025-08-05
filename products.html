@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style_products.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <title>YummyBox.com</title>
+</head>
+
+<body>
+  <!--Header start-->
+  <header>
+    <a href="index.html" class=logo>YummyBox.com</a>
+  <nav class="navbar" id="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html" class="active" >Products</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <div class="menu-icon" id="menu-icon">
+    <i class="fas fa-bars bar-icon"></i>
+    <i class="fas fa-times close-icon"></i>
+  </div>
+  </header>
+<!--Products section-->
+  <section class="home">
+    <div class="home-text">
+      <h1>Our products</h1>
+      <p>Foods and drinks that delight the eyes, nose and palate
+        <br> experience the difference quality makes
+      </p>
+    </div>
+  </section>
+  <!-- buttons -->
+  <input type="radio" name="category" id="all" checked>
+  <input type="radio" name="category" id="beverages">
+  <input type="radio" name="category" id="bakery">
+  <input type="radio" name="category" id="pantry">
+  <input type="radio" name="category" id="dairy">
+
+  <div class="tab-buttons">
+    <label for="all">All</label>
+    <label for="beverages">Beverages</label>
+    <label for="bakery">Bakery</label>
+    <label for="pantry">Pantry</label>
+    <label for="dairy">Dairy</label>
+  </div>
+
+  <!-- Content -->
+  <div class="tab-content">
+    <div class="all">
+      <div class="product_grid">
+        <div class="product-card">
+          <img src="img/dango.jpg" alt="Dango" class="product-image">
+          <h3>Dango</h3>
+          <p class="description">
+            Dango is a Japanese dumpling made with regular rice flour and glutinous rice flour.
+            They are usually made in round shapes.
+          </p>
+          <div class="product-footer">
+            <span class="price">$22.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/muffins.png" alt="Muffins" class="product-image">
+          <h3>Muffin</h3>
+          <p class="description">
+            Soft, moist, and freshly baked — our muffins are the perfect treat for any time of the day.
+            Made with high-quality ingredients.
+          </p>
+          <div class="product-footer">
+            <span class="price">$2.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/peach squash.webp" alt="Peach squash" class="product-image">
+          <h3>Peach squash</h3>
+          <p class="description">
+            "Thick, Delicious"
+            Peach squash is so concentrated that the fruit ingredients will sink in.
+            It is made with mushed white peach juice.
+          </p>
+          <div class="product-footer">
+            <span class="price">$9.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/honey cake.jpg" alt="Honey cake" class="product-image">
+          <h3>Honey cake</h3>
+          <p class="description">
+            A beautiful, layered Honey Cake with four honey-filled sponges sandwiched between delightful vanilla bean
+            whipped cream.
+          </p>
+          <div class="product-footer">
+            <span class="price">$15.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/tiramisu.png" alt="Tiramisu" class="product-image">
+          <h3>Tiramisu</h3>
+          <p class="description">
+            Italian dessert with layers,
+            Coffee-dipped sponge inside,
+            Topped with rich cocoa dust,
+            Soft, creamy, melts in mouth.
+          </p>
+          <div class="product-footer">
+            <span class="price">$8.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/mojito.png" alt="Mojito" class="product-image">
+          <h3>Mojito</h3>
+          <p class="description">
+            Mojito is a refreshing Cuban cocktail made with white rum, lime juice, mint leaves, sugar, and soda water.
+          </p>
+          <div class="product-footer">
+            <span class="price">$4.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/donuts.png" alt="Donuts" class="product-image">
+          <h3>Donuts</h3>
+          <p class="description">
+            Fluffy, fried or baked,
+            Glazed or chocolate-topped,
+            Filled with fruit or cream,
+            Perfect with your coffee.
+          </p>
+          <div class="product-footer">
+            <span class="price">$6.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/mousse.jpg" alt="Mousse" class="product-image">
+          <h3>Mousse</h3>
+          <p class="description">
+            Rich whipped chocolate treat,
+            Light yet full of flavor,
+            Served cold and smooth,
+            Intensely cocoa-packed.
+          </p>
+          <div class="product-footer">
+            <span class="price">$12.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/iced macchiato.jpg" alt="Ice_Macchito" class="product-image">
+          <h3>Iced Caramel Macchiato</h3>
+          <p class="description">
+            Iced caramel macchiato blends espresso, milk,
+            and caramel for a sweet, creamy coffee. Perfect for a refreshing caffeine fix.
+          </p>
+          <div class="product-footer">
+            <span class="price">$7.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/popcorn.jpg" alt="Popcorn" class="product-image">
+          <h3>Popcorn</h3>
+          <p class="description">
+            Popcorn is a light, crunchy snack made from popped corn kernels.
+            Enjoy it plain, buttery, sweet, or spiced for a tasty treat.
+          </p>
+          <div class="product-footer">
+            <span class="price">$3.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/yogurt.jpg" alt="Yogurt" class="product-image">
+          <h3>Yogurt bowl</h3>
+          <p class="description">
+            Yogurt is a creamy, fermented dairy snack packed with probiotics. Enjoy it plain, flavored or in smoothies.
+          </p>
+          <div class="product-footer">
+            <span class="price">$5.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/bubble_tea.jpg" alt="Bublle Tea" class="product-image">
+          <h3>Bubble tea</h3>
+          <p class="description">
+            Bubble tea is a fun, sweet drink with tea, milk,
+            and chewy tapioca pearls. Served iced for a refreshing, boba-filled treat.
+          </p>
+          <div class="product-footer">
+            <span class="price">$10.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/panna_cotta.jpg" alt="Panna Cotta" class="product-image">
+          <h3>Panna Cotta</h3>
+          <p class="description">
+            Panna cotta is a creamy Italian dessert made with sweetened cream, set with gelatin for a silky, jiggly
+            texture.
+
+          </p>
+          <div class="product-footer">
+            <span class="price">$17.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/dried_fruits.jpg" alt="Dried fruits" class="product-image">
+          <h3>Dried fruits</h3>
+          <p class="description">
+            Sweet chewy fruit mix,
+            Perfect for quick snacking,
+            Energy-packed and tasty,
+            Great for hikes or travel.
+          </p>
+          <div class="product-footer">
+            <span class="price">$16.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/pancakes.jpg" alt="Pancakes" class="product-image">
+          <h3>Pancakes</h3>
+          <p class="description">
+            Pancakes are fluffy, golden rounds made from a simple batter of flour, eggs, and milk,
+            cooked on a griddle.
+          </p>
+          <div class="product-footer">
+            <span class="price">$1.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/grains.jpg" alt="grains" class="product-image">
+          <h3>Grains</h3>
+          <p class="description">
+            Tiny seeds from plants,
+            Oats, rice, and wheat inside,
+            Nutritious and filling,
+            Great for healthy meals.
+          </p>
+          <div class="product-footer">
+            <span class="price">$11.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="beverages">
+      <div class="product_grid">
+        <div class="product-card">
+          <img src="img/peach squash.webp" alt="Peach squash" class="product-image">
+          <h3>Peach squash</h3>
+          <p class="description">
+            "Thick, Delicious"
+            Peach squash is so concentrated that the fruit ingredients will sink in.
+            It is made with mushed white peach juice.
+          </p>
+          <div class="product-footer">
+            <span class="price">$9.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/mojito.png" alt="Mojito" class="product-image">
+          <h3>Mojito</h3>
+          <p class="description">
+       Mojito is a refreshing Cuban cocktail made with white rum, lime juice, mint leaves, sugar, and soda water.
+          </p>
+          <div class="product-footer">
+            <span class="price">$4.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/iced macchiato.jpg" alt="Ice_Macchito" class="product-image">
+          <h3>Iced Caramel Macchiato</h3>
+          <p class="description">
+            Iced caramel macchiato blends espresso, milk,
+            and caramel for a sweet, creamy coffee. Perfect for a refreshing caffeine fix.
+          </p>
+          <div class="product-footer">
+            <span class="price">$7.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/bubble_tea.jpg" alt="Bublle Tea" class="product-image">
+          <h3>Bubble tea</h3>
+          <p class="description">
+            Bubble tea is a fun, sweet drink with tea, milk,
+            and chewy tapioca pearls. Served iced for a refreshing, boba-filled treat.
+          </p>
+          <div class="product-footer">
+            <span class="price">$10.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bakery">
+      <div class="product_grid">
+        <div class="product-card">
+          <img src="img/muffins.png" alt="Muffins" class="product-image">
+          <h3>Muffin</h3>
+          <p class="description">
+            Soft, moist, and freshly baked — our muffins are the perfect treat for any time of the day.
+            Made with high-quality ingredients.
+          </p>
+          <div class="product-footer">
+            <span class="price">$2.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/honey cake.jpg" alt="Honey cake" class="product-image">
+          <h3>Honey cake</h3>
+          <p class="description">
+            A beautiful, layered Honey Cake with four honey-filled sponges sandwiched between delightful vanilla bean
+            whipped cream.
+          </p>
+          <div class="product-footer">
+            <span class="price">$15.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/tiramisu.png" alt="Tiramisu" class="product-image">
+          <h3>Tiramisu</h3>
+          <p class="description">
+            Italian dessert with layers,
+            Coffee-dipped sponge inside,
+            Topped with rich cocoa dust,
+            Soft, creamy, melts in mouth.
+          </p>
+          <div class="product-footer">
+            <span class="price">$8.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/donuts.png" alt="Donuts" class="product-image">
+          <h3>Donuts</h3>
+          <p class="description">
+            Fluffy, fried or baked,
+            Glazed or chocolate-topped,
+            Filled with fruit or cream,
+            Perfect with your coffee.
+          </p>
+          <div class="product-footer">
+            <span class="price">$6.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pantry">
+      <div class="product_grid">
+        <div class="product-card">
+          <img src="img/dango.jpg" alt="Dango" class="product-image">
+          <h3>Dango</h3>
+          <p class="description">
+            Dango is a Japanese dumpling made with regular rice flour and glutinous rice flour.
+            They are usually made in round shapes.
+          </p>
+          <div class="product-footer">
+            <span class="price">$22.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/popcorn.jpg" alt="Popcorn" class="product-image">
+          <h3>Popcorn</h3>
+          <p class="description">
+            Popcorn is a light, crunchy snack made from popped corn kernels.
+            Enjoy it plain, buttery, sweet, or spiced for a tasty treat.
+          </p>
+          <div class="product-footer">
+            <span class="price">$3.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/dried_fruits.jpg" alt="Dried fruits" class="product-image">
+          <h3>Dried fruits</h3>
+          <p class="description">
+            Sweet chewy fruit mix,
+            Perfect for quick snacking,
+            Energy-packed and tasty,
+            Great for hikes or travel.
+          </p>
+          <div class="product-footer">
+            <span class="price">$16.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="img/grains.jpg" alt="grains" class="product-image">
+          <h3>Grains</h3>
+          <p class="description">
+            Tiny seeds from plants,
+            Oats, rice, and wheat inside,
+            Nutritious and filling,
+            Great for healthy meals.
+          </p>
+          <div class="product-footer">
+            <span class="price">$11.99</span>
+            <button class="buy-button">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dairy">
+      <div class="product_grid">
+      <div class="product-card">
+        <img src="img/mousse.jpg" alt="Mousse" class="product-image">
+        <h3>Mousse</h3>
+        <p class="description">
+          Rich whipped chocolate treat,
+          Light yet full of flavor,
+          Served cold and smooth,
+          Intensely cocoa-packed.
+        </p>
+        <div class="product-footer">
+          <span class="price">$12.99</span>
+          <button class="buy-button">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="img/yogurt.jpg" alt="Yogurt" class="product-image">
+        <h3>Yogurt bowl</h3>
+        <p class="description">
+          Yogurt is a creamy, fermented dairy snack packed with probiotics. Enjoy it plain, flavored or in smoothies.
+        </p>
+        <div class="product-footer">
+          <span class="price">$5.99</span>
+          <button class="buy-button">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="img/panna_cotta.jpg" alt="Panna Cotta" class="product-image">
+        <h3>Panna Cotta</h3>
+        <p class="description">
+          Panna cotta is a creamy Italian dessert made with sweetened cream, set with gelatin for a silky, jiggly
+          texture.
+
+        </p>
+        <div class="product-footer">
+          <span class="price">$17.99</span>
+          <button class="buy-button">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="img/pancakes.jpg" alt="Pancakes" class="product-image">
+        <h3>Pancakes</h3>
+        <p class="description">
+          Pancakes are fluffy, golden rounds made from a simple batter of flour, eggs, and milk,
+          cooked on a griddle.
+        </p>
+        <div class="product-footer">
+          <span class="price">$1.99</span>
+          <button class="buy-button">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+<section id="contact">
+    <div class="footer">
+        <div class="main">
+            <div class="list">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li><a href="#">street</a></li>
+                    <li><a href="#">Baku Azerbaijan</a></li>
+                    <li><a href="#">(050) 796 9238</a></li>
+                    <li><a href="#">(538) 070 3585</a></li>
+                    <li><a href="#">gunel1mammadzade@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <h4>Site Pages</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="list">
+                <h4>Social Media</h4>
+                <ul>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/gyunnill/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href="https://github.com/Gyunell"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.linkedin.com/in/gunel-mammadzade-856214375/?trk=PROFILE_DROP_DOWN"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="end-text">
+        <p>@2025 rights reserved | Design by <a href="https://github.com/Gyunell">GunelM</a></p>
+    </div>
+</section>
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    const menuIcon = document.getElementById('menu-icon');
+    const navbar = document.getElementById('navbar');
+
+    menuIcon.addEventListener('click', () => {
+      navbar.classList.toggle('open');
+      menuIcon.classList.toggle('open'); 
+    });
+  });
+</script>
+</body>
+
+</html>
