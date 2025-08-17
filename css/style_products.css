@@ -420,20 +420,6 @@ input#dairy:checked ~ .tab-content .dairy {
         z-index: 1001;
     }
     
-    .navbar {
-        position: fixed;
-        top: 0;
-        right: -100%;
-        width: 70%;
-        height: 100vh;
-        background-color: #C04B50;
-        flex-direction: column;
-        align-items: center;
-        padding: 80px 30px;
-        transition: right 0.4s ease;
-        z-index: 1000;
-    }
-    
     .navbar.open {
         right: 0;
     }
