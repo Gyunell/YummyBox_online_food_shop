@@ -408,3 +408,83 @@ input#dairy:checked ~ .tab-content .dairy {
         grid-template-columns: repeat(4, 1fr);
     }
 }
+
+@media (max-width: 420px) {
+    header {
+        padding: 15px 20px;
+    }
+    
+    .menu-icon {
+        display: block;
+        z-index: 1001;
+    }
+    
+    .navbar {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background-color: #C04B50;
+        flex-direction: column;
+        align-items: center;
+        padding: 80px 30px;
+        transition: right 0.4s ease;
+        z-index: 1000;
+    }
+    
+    .navbar.open {
+        right: 0;
+    }
+    
+    .navbar ul {
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+    .navbar a {
+        font-size: 1.2rem;
+        padding: 10px 0;
+    }
+    
+    .home-text h1 {
+        font-size: 1.8rem;
+        margin-top: 30%;
+    }
+    
+    .home-text p {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+
+    .tab-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        padding: 15px;
+    }
+    
+    .tab-buttons label {
+        width: 90%;
+        text-align: center;
+        padding: 12px 0;
+        border-radius: 6px;
+    }
+    
+}
+
+@media (min-width: 421px) and (max-width: 600px) {
+    .tab-buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .tab-buttons label {
+        width: 45%;
+        margin: 5px;
+    }
+    
+    .product_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
