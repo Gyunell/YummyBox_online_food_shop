@@ -113,7 +113,7 @@ header {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: image('/img/banner3.png');
+  background-image: url(/img/banner3.png);
   background-size: cover;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
