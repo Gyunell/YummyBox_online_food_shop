@@ -17,7 +17,7 @@
 
 .menu-icon i.fa-bars {
   display: inline;
-}
+} 
 
 .menu-icon.open i.fa-bars {
   display: none;
@@ -455,4 +455,12 @@ header {
   .team_container {
     gap: 40px;
   }
+}
+@media (max-width: 700px) {
+  .mission-text p{
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  padding: 0 20px;
+}
 }
